@@ -1,12 +1,12 @@
 #!/bin/bash -x
-PRESENT=1;
-isPresent=$((RANDOM%2))
+isPresent=1;
+randomCheck=$((RANDOM%2))
 
-if[ $isPresent -eq $PRESENT ]
+if[ $isPresent -eq $randomCheck ]
 then
-	echo "Employee is present";
+	echo "Employee is present"
 else
-	echo "Employee is absent";
+	echo "Employee is absent"
 fi
 
 
